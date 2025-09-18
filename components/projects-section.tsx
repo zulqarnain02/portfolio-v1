@@ -20,7 +20,7 @@ const projects = [
     title: "Fi-Money Inventory Management System",
     description:
       "Inventory Management System is a full-stack application that helps businesses efficiently track and manage their products. It includes secure user authentication with JWT, and supports adding, updating, viewing, and deleting products with details like SKU, type, description, and images. Built with Node.js (Express) and PostgreSQL on the backend using a Controller-Route-Service architecture, and Next.js, TypeScript, Tailwind CSS, and shadcn/ui on the frontend, the system offers a responsive, intuitive interface along with fast product search by name, SKU, or type.",
-    image: "",
+    image: "/fiMoney.png",
     technologies: ["Next.js","TypeScript","Tailwind CSS","shadcn/ui","Node.js","Express.js","PostgreSQL","JWT","bcryptjs"],
     liveUrl: "#",
     githubUrl: "https://github.com/zulqarnain02/FI-INVENTORIES-MANAGEMENT",
@@ -38,7 +38,7 @@ const projects = [
     title: "HealLink - Doctor Appointment Booking",
     description:
       "This is a web application that streamlines the process of booking doctor consultations and managing patient-doctor interactions. It provides secure authentication for patients and doctors, detailed doctor profiles with specialization, fees, and availability, and quick appointment booking. Patients can track their transaction history, while doctors can manage time slots, approve or reject appointments, and update their profiles. The platform ensures a smooth and efficient healthcare booking experience.",
-    image: "",
+    image: "/healLink.png",
     technologies: ["React.js","Tailwind CSS","Node.js","Express.js","MongoDB","Mongoose","JWT"],
     liveUrl: "#",
     githubUrl: "https://github.com/zulqarnain02/HealLink---Doctor-Appointment-Booking",
@@ -47,7 +47,7 @@ const projects = [
     title: "PDFtoXML Converter",
     description:
       "This is a full-stack PDF to XML Converter application that enables users to seamlessly convert PDF documents into well-structured XML format. It offers a modern React + Vite frontend with a clean and intuitive UI for uploading and managing files, along with real-time conversion tracking. The backend, built with Node.js and Express, handles secure file upload, processing, storage, and integration with the PDF.co API for reliable and accurate conversions. Additional features include user authentication, email verification, password reset, conversion history tracking, and export functionality. The system ensures secure, accurate, and user-friendly document conversion, making it suitable for various PDF formats and layouts.",
-    image: "",
+    image: "/PDFtoXML.png",
     technologies: ["React.js","Vite","Tailwind CSS","Lucide React","Node.js","Express.js","MongoDB","Mongoose","JWT","PDF.co API"],
     liveUrl: "#",
     githubUrl: "https://github.com/zulqarnain02/PDFtoXML",
@@ -56,7 +56,7 @@ const projects = [
     title: "Crypto Dashboard",
     description:
       "This is a Crypto Dashboard application that provides users with an interactive and secure platform to monitor cryptocurrency data. It showcases the top 10 cryptocurrencies by market cap with real-time price updates, along with detailed information for each coin. Users can set custom price alerts and receive notifications via email, ensuring they never miss key market movements. The system includes secure authentication with JWT, along with a password recovery feature for user convenience. With its clean React + Tailwind UI and robust Node.js + Express backend, the platform delivers a reliable and user-friendly experience for crypto tracking and management.",
-    image: "",
+    image: "/crypto.png",
     technologies:["React.js","Tailwind CSS","Node.js","Express.js","MongoDB","JWT","Nodemailer"],
     liveUrl: "#",
     githubUrl: "https://github.com/zulqarnain02/Crypto-Dashboard",
@@ -65,7 +65,7 @@ const projects = [
     title: "Task Management System",
     description:
       "This is a Task Management System built with Django that helps users efficiently create, assign, and track tasks. It supports task creation with descriptions, assignment to users, due date tracking, and status updates for better workflow management. The application includes secure user authentication using Django’s built-in system and is designed with a responsive interface to ensure smooth usability across devices. With its simple yet powerful features, it provides an organized way to manage tasks and improve productivity.",
-    image: "",
+    image: "/task.png",
     technologies: ["Django 5.0.6","MySQL","HTML","CSS","JavaScript","Django Authentication"],
     liveUrl: "#",
     githubUrl: "https://github.com/zulqarnain02/TaskManagement",
@@ -75,7 +75,7 @@ const projects = [
     title: "Loan Management System",
     description:
       "This is a Loan Management System designed to simplify and streamline loan application, tracking, and repayment processes. It supports multiple loan categories such as personal, micro, business, home, and education loans. Users can view loan details including customer info, loan amount, credit score, and lender eligibility. The system features EMI calculation and management, allowing users to track pending and paid installments, along with full payment history. Additional features include an application form, status tracking, and credit score integration. With an intuitive interface and robust backend, it provides a complete solution for efficient loan management.",
-    image: "",
+    image: "/loan.png",
     technologies: ["Django","HTML","CSS","JavaScript","MySQL","mysqlclient"],
     liveUrl: "",
     githubUrl: "https://github.com/zulqarnain02/Loan-Management-System",
