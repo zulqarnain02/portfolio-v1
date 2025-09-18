@@ -29,10 +29,10 @@ const projects = [
     title: "Portfolio Website",
     description:
       "This is a portfolio website built with Next.js, Tailwind CSS, and shadcn/ui. It includes a home page, about me page, skills page, experience page, projects page, and contact page. It also includes a blog page that is built with Markdown and is hosted on GitHub Pages.",
-    image: "",
+    image: "/portfolio.png",
     technologies: ["Next.js","TypeScript","Tailwind CSS","shadcn/ui","nodeMailer"],
-    liveUrl: "",
-    githubUrl: "",
+    liveUrl: "https://zulqarnain-portfolio-v1.vercel.app/",
+    githubUrl: "https://github.com/zulqarnain02/portfolio-v1",
   },
   {
     title: "HealLink - Doctor Appointment Booking",
