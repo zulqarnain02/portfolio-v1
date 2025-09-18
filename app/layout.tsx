@@ -9,8 +9,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Software Engineer Portfolio",
-  description: "Full Stack Developer Portfolio - Modern & Animated",
-  generator: "v0.app",
+  description: "Full Stack Developer Portfolio",
 }
 
 const geistSans = GeistSans
