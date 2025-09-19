@@ -131,6 +131,12 @@
     /* Set specific background color #161616 */
     background-color: #161616 !important;
   }
+  /* Prevent horizontal overflow on mobile */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
 }
 
 /* Enhanced animations with more dynamic moving elements */

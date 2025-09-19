@@ -117,8 +117,8 @@ export function ContactSection() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div
-            className={`transition-all duration-700 delay-400 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
-              }`}
+            className={`relative overflow-hidden rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-[#00d4ff]/10 via-card/50 to-[#8b5cf6]/10 backdrop-blur-sm border border-[#00d4ff]/20 duration-700 delay-600 hover:shadow-lg transition-all duration-500 hover:scale-105 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
+            }`}
           >
             <h3 className="text-2xl font-semibold text-foreground mb-8">Let's Connect & Innovate</h3>
 
@@ -132,7 +132,7 @@ export function ContactSection() {
                     <info.icon className="text-primary" size={20} />
                   </div>
                   <div className="flex items-center gap-6 flex-1 min-w-0">
-                    <span className="text-sm text-muted-foreground whitespace-nowrap">{info.label}</span>
+                    <span className="text-sm text-muted-foreground whitespace-nowrap hidden md:block">{info.label}</span>
                     <a
                       href={info.href}
                       className="text-foreground font-medium hover:text-primary transition-colors duration-300 truncate"
