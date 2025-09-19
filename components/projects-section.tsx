@@ -97,18 +97,30 @@ export function ProjectsSection() {
   const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    const element = sectionRef.current
+    if (!element) return
+
     const observer = new IntersectionObserver(
-      ([entry]) => {
+      ([entry], obs) => {
         if (entry.isIntersecting) {
           setIsVisible(true)
+          // Reveal once, then stop observing to avoid flicker
+          obs.unobserve(entry.target)
         }
       },
-      { threshold: 0.2 },
+      {
+        // Trigger as soon as any part is visible, with a slight bottom margin
+        threshold: 0,
+        rootMargin: "0px 0px -10% 0px",
+      },
     )
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current)
-    }
+    observer.observe(element)
+
+    // Fallback: if it's already in view on mount but callback didn't fire yet
+    const rect = element.getBoundingClientRect()
+    const inView = rect.top < window.innerHeight && rect.bottom > 0
+    if (inView) setIsVisible(true)
 
     return () => observer.disconnect()
   }, [])
