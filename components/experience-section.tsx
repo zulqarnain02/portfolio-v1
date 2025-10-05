@@ -26,7 +26,7 @@ const experiences = [
     title: "Research Intern",
     company: "PES University, Innovation Labs",
     location: "Bangalore, Karnataka",
-    period: "March 2025 - May 2025",
+    period: "February 2025 - April 2025",
     description:
       "I worked on exploring interaction design in extended reality (XR). I contributed by building interactive prototypes, experimenting with ways to improve usability and performance, and creating engaging user experiences. Along with technical work, I participated in team discussions, shared ideas, and helped with presentations and report writing. This internship allowed me to strengthen my creativity, research mindset, and ability to apply concepts in practical projects.",
     technologies: ["Unity", "C#", "XR", "Interaction Design", "Prototyping", "User Experience", "User Interface"],

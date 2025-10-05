@@ -61,28 +61,31 @@ export function HeroSection() {
                 variant="outline"
                 size="icon"
                 className="w-12 h-12 md:w-14 md:h-14 rounded-full hover:scale-110 transition-all duration-300 bg-gray-800/50 backdrop-blur-sm border-[#00d4ff]/30 hover:border-[#00d4ff] hover:bg-[#00d4ff]/10 text-gray-300 hover:text-[#00d4ff]"
-                onClick={() => window.open("https://github.com/zulqarnain02", "_blank")}
-                rel="noopener noreferrer"
+                asChild
               >
-                <Github size={20} />
+                <a href="https://github.com/zulqarnain02/" target="_blank" rel="noopener noreferrer">
+                  <Github size={20} />
+                </a>
               </Button>
               <Button
                 variant="outline"
                 size="icon"
                 className="w-12 h-12 md:w-14 md:h-14 rounded-full hover:scale-110 transition-all duration-300 bg-gray-800/50 backdrop-blur-sm border-[#8b5cf6]/30 hover:border-[#8b5cf6] hover:bg-[#8b5cf6]/10 text-gray-300 hover:text-[#8b5cf6]"
-                onClick={() => window.open("https://www.linkedin.com/in/mohammed-zulqarnain/", "_blank")}
-                rel="noopener noreferrer"
+                asChild
               >
-                <Linkedin size={20} />
+                <a href="https://www.linkedin.com/in/mohammed-zulqarnain/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin size={20} />
+                </a>
               </Button>
               <Button
                 variant="outline"
                 size="icon"
                 className="w-12 h-12 md:w-14 md:h-14 rounded-full hover:scale-110 transition-all duration-300 bg-gray-800/50 backdrop-blur-sm border-[#00ff88]/30 hover:border-[#00ff88] hover:bg-[#00ff88]/10 text-gray-300 hover:text-[#00ff88]"
-                onClick={() => window.open("mailto:zulqarnain4292@gmail.com", "_blank")}
-                rel="noopener noreferrer"
+                asChild
               >
-                <Mail size={20} />
+                <a href="mailto:zulqarnain4292@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Mail size={20} />
+                </a>
               </Button>
             </div>
           </div>

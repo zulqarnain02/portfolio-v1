@@ -13,7 +13,7 @@ const projects = [
       "Focus Learn is a personalized learning platform designed to help students minimize distractions and stay focused while studying. The platform enables real-time progress tracking, ensuring learners can monitor their journey effectively. It features a built-in rich text editor that allows users to create and download chapter-specific notes for offline reference. Additionally, Focus Learn promotes collaborative learning by allowing users to explore and fork public learning journeys, tailoring them to their own preferences. The platform delivers a seamless and interactive learning experience.",
     image: "/focusLearn.png",
     technologies: ["React.js", "Node.js", "MySQL", "YouTube API", "JavaScript", "Tailwind CSS"],
-    liveUrl: "#",
+    liveUrl: "https://focuslearn-frontend.onrender.com",
     githubUrl: "https://github.com/zulqarnain02/focusLearn",
   },
   {
@@ -40,7 +40,7 @@ const projects = [
       "This is a web application that streamlines the process of booking doctor consultations and managing patient-doctor interactions. It provides secure authentication for patients and doctors, detailed doctor profiles with specialization, fees, and availability, and quick appointment booking. Patients can track their transaction history, while doctors can manage time slots, approve or reject appointments, and update their profiles. The platform ensures a smooth and efficient healthcare booking experience.",
     image: "/healLink.png",
     technologies: ["React.js","Tailwind CSS","Node.js","Express.js","MongoDB","Mongoose","JWT"],
-    liveUrl: "#",
+    liveUrl: "https://heallink.onrender.com",
     githubUrl: "https://github.com/zulqarnain02/HealLink---Doctor-Appointment-Booking",
   },
   {
