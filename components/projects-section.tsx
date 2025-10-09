@@ -22,7 +22,7 @@ const projects = [
       "Inventory Management System is a full-stack application that helps businesses efficiently track and manage their products. It includes secure user authentication with JWT, and supports adding, updating, viewing, and deleting products with details like SKU, type, description, and images. Built with Node.js (Express) and PostgreSQL on the backend using a Controller-Route-Service architecture, and Next.js, TypeScript, Tailwind CSS, and shadcn/ui on the frontend, the system offers a responsive, intuitive interface along with fast product search by name, SKU, or type.",
     image: "/fiMoney.png",
     technologies: ["Next.js","TypeScript","Tailwind CSS","shadcn/ui","Node.js","Express.js","PostgreSQL","JWT","bcryptjs"],
-    liveUrl: "#",
+    liveUrl: "https://fi-inventories-dashboard.onrender.com",
     githubUrl: "https://github.com/zulqarnain02/FI-INVENTORIES-MANAGEMENT",
   },
   {
@@ -49,7 +49,7 @@ const projects = [
       "This is a full-stack PDF to XML Converter application that enables users to seamlessly convert PDF documents into well-structured XML format. It offers a modern React + Vite frontend with a clean and intuitive UI for uploading and managing files, along with real-time conversion tracking. The backend, built with Node.js and Express, handles secure file upload, processing, storage, and integration with the PDF.co API for reliable and accurate conversions. Additional features include user authentication, email verification, password reset, conversion history tracking, and export functionality. The system ensures secure, accurate, and user-friendly document conversion, making it suitable for various PDF formats and layouts.",
     image: "/PDFtoXML.png",
     technologies: ["React.js","Vite","Tailwind CSS","Lucide React","Node.js","Express.js","MongoDB","Mongoose","JWT","PDF.co API"],
-    liveUrl: "#",
+    liveUrl: "https://pdftoxml-app.onrender.com",
     githubUrl: "https://github.com/zulqarnain02/PDFtoXML",
   },
   {
