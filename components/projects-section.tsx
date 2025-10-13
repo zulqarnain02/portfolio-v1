@@ -53,6 +53,26 @@ const projects = [
     githubUrl: "https://github.com/zulqarnain02/PDFtoXML",
   },
   {
+    title: "Credential-issue Engine",
+    description:
+      "This is a full-stack web application designed to issue digital credentials. The system takes a JSON payload, checks if a credential with the same content has already been issued, and returns a unique credential ID upon successful issuance. The project is a monorepo containing  two main packages: backend-ts, a Node.js and Express backend server, and frontend, a React and Vite frontend application. The backend is fully containerized using Docker, deployed and running on an AWS EC2 instance for easy deployment and scalability. It is also configured to run over HTTPS to encrypt data in transit. The frontend is a single-page application that provides the user interface for submitting credential data and displaying the results, communicating with the backend via REST API calls.",
+    image: "/credential-issue.png",
+    technologies: ["React","TypeScript","Vite","Tailwind CSS","shadcn/ui","React Router","Node.js","Express.js","MongoDB","Mongoose","Docker","AWS EC2"],
+    liveUrl: "https://kube-credential-issue.onrender.com/",
+    githubUrl: "https://github.com/zulqarnain02/Kube-credential-issue",
+  },
+
+  {
+    title: "Credential-verify Engine",
+    description:
+      "The Kube-Credential-Verify project is a full-stack web application designed to validate the authenticity of digital credentials. The system features a modern frontend built with React, where users can submit a credential in JSON format. The TypeScript-based Node.js backend receives this credential, canonicalizes the JSON to create a stable representation, and then hashes it to generate a unique, deterministic ID. This ID is checked against a MongoDB database to determine if the credential has been previously issued. The application is fully containerized with Docker, ensuring a consistent and portable environment for both development and deployment. The backend also supports HTTPS to secure data in transit.",
+    image: "/credential-verify.png",
+    technologies: ["React","TypeScript","Vite","Tailwind CSS","shadcn/ui","React Router","Node.js","Express.js","MongoDB","Mongoose","Docker","AWS EC2"],
+    liveUrl: "https://kube-credential-verify.onrender.com/",
+    githubUrl: "https://github.com/zulqarnain02/Kube-credential-verify",
+  },
+
+  {
     title: "Crypto Dashboard",
     description:
       "This is a Crypto Dashboard application that provides users with an interactive and secure platform to monitor cryptocurrency data. It showcases the top 10 cryptocurrencies by market cap with real-time price updates, along with detailed information for each coin. Users can set custom price alerts and receive notifications via email, ensuring they never miss key market movements. The system includes secure authentication with JWT, along with a password recovery feature for user convenience. With its clean React + Tailwind UI and robust Node.js + Express backend, the platform delivers a reliable and user-friendly experience for crypto tracking and management.",
