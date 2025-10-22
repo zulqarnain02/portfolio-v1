@@ -17,6 +17,15 @@ const projects = [
     githubUrl: "https://github.com/zulqarnain02/focusLearn",
   },
   {
+    title: "BlogHub - Modern Blog Platform",
+    description:
+      "This project is a modern blog platform designed to let you easily write, edit, publish, and organize articles, with a clean reading experience and a simple dashboard to manage content. Its purpose is to provide creators or teams a fast, reliable, and pleasant way to share posts without fuss. It’s built with Next.js and TypeScript, styled with Tailwind and a polished set of reusable UI components, and uses a type‑safe API layer (tRPC) with Drizzle ORM for the database and migrations. Features include a built‑in Markdown editor for rich formatting, browsing all posts and viewing single posts, creating and editing posts, category exploration, and responsive light/dark theme support—all structured to scale as your blog grows.",
+    image: "/bloghub.png",
+    technologies: ["Next.js","TypeScript","Tailwind CSS","Radix UI","tRPC","zod","Zustand","Drizzle ORM","shadcn/u","lucide-react"],
+    liveUrl: "https://blog-hub-nine-pearl.vercel.app",
+    githubUrl: "https://github.com/zulqarnain02/BlogHub",
+  },
+  {
     title: "Fi-Money Inventory Management System",
     description:
       "Inventory Management System is a full-stack application that helps businesses efficiently track and manage their products. It includes secure user authentication with JWT, and supports adding, updating, viewing, and deleting products with details like SKU, type, description, and images. Built with Node.js (Express) and PostgreSQL on the backend using a Controller-Route-Service architecture, and Next.js, TypeScript, Tailwind CSS, and shadcn/ui on the frontend, the system offers a responsive, intuitive interface along with fast product search by name, SKU, or type.",
